@@ -1,0 +1,23 @@
+{
+  "name": "@escook/request-miniprogram",
+  "version": "0.1.0",
+  "description": "基于 Promise 的小程序网路请求库",
+  "main": "miniprogram_dist/index.js",
+  "miniprogram": "miniprogram_dist",
+  "scripts": {},
+  "keywords": [
+    "request",
+    "miniprogram",
+    "wx",
+    "weixin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:liulongbin1314/request-miniprogram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liulongbin1314/request-miniprogram/issues"
+  },
+  "author": "LiuLongBin",
+  "license": "MIT"
+}
