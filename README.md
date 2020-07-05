@@ -21,10 +21,13 @@ wx.$http = $http
 ```js
 // 发起 GET 请求，data 是可选的参数对象
 $http.get(url, data?)
+
 // 发起 POST 请求，data 是可选的参数对象
 $http.post(url, data?)
+
 // 发起 PUT 请求，data 是可选的参数对象
 $http.put(url, data?)
+
 // 发起 DELETE 请求，data 是可选的参数对象
 $http.delete(url, data?)
 ```
