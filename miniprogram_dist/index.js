@@ -49,7 +49,12 @@ class Request {
     this.beforeRequest && typeof this.beforeRequest === 'function' && this.beforeRequest(this)
     // 发起请求
     return new Promise((resolve, reject) => {
-      wx.request({
+      let weixin = wx
+      // 适配 uniapp
+      if ('undefined' !== typeof uni) {
+        weixin = uni
+      }
+      weixin.request({
         url: this.url,
         method: this.method,
         data: this.data,
